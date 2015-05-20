@@ -1,11 +1,169 @@
-.style{
-	background-color: blue;
-	height: 100px;
-	text-align: center;
-	padding-top: 50px;
-	font-size: 50px;
+/*styling for Full Screen*/
+body {
+	width: 100%;
+	height: 100%;
+	background-color: pink;
+}
+/*code so that the audio can be centered and not off to the side*/
+.audio{
+  margin-left: 30%;
+}
+/*styling for profile picture to make sure it sizes correctly*/
+.title {
+  width:20% ;
+  height: 40%;
+  margin-left: auto;
+  margin-right: auto;
+}
+/*styling for the navigation bar*/
+.navbar {
+  font-size:initial;
+}
+* {font-family:arial; margin:0; padding:0;}
+.logo {font-size:40px; font-weight:bold;color:#00a; font-style:italic;}
+.intro {color:#777; font-style:italic; margin:10px 0;}
+.menu {background:#00a; color:#fff; height:40px; line-height:40px;letter-spacing:1px; width:100%;}
+.content {margin-top:10px;}
+.menu-padding {padding-top:40px;}
+.content {padding:10px;}
+.content p {margin-bottom:20px;}
 
+
+
+
+/*media query/ mobile responsive line of code for iphone 5*/
+@media (min-device-width: 320px) and (max-device-width: 480px){
+	body{
+		background-color: blue;
+	}
 }
-body{
-	background-color: purple;
+
+
+/* media query/ mobile responsive line of code for ipad*/
+@media (min-device-width: 768px) {
+  /*parallax css code*/
+	@import url(<link href='http://fonts.googleapis.com/css?family=Roboto+Condensed' rel='stylesheet' type='text/css'>);
+html, body {
+  background-color: #2c3e50;
+  font-family: 'Roboto Condensed', sans-serif;
 }
+
+.container {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-content: center;
+      -ms-flex-line-pack: center;
+          align-content: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-flex-wrap: nowrap;
+      -ms-flex-wrap: nowrap;
+          flex-wrap: nowrap;
+  height: 100%;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+  position: relative;
+  width: 100%;
+}
+.container section {
+  width: 100%;
+  height: 100vh;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  background-color: #000;
+}
+.container section:nth-child(1) .image {
+  background-image: url(https://download.unsplash.com/reserve/AXx3QORhRDKAMrbb8pX4_photo%202.JPG);
+}
+.container section:nth-child(2) .image {
+  background-image: url(https://download.unsplash.com/reserve/lNlimzQRqm3emNrRnv1w_IMG_7726.JPG);
+}
+.container section:nth-child(3) .image {
+  background-image: url(https://download.unsplash.com/photo-1428856472086-8674d9cbd6bc);
+}
+.container section:nth-child(4) .image {
+  background-image: url(https://download.unsplash.com/photo-1428908684367-2fe456a630bb);
+}
+.container section:nth-child(5) .image {
+  background-image: url(https://download.unsplash.com/photo-1429105049372-8d928fd29ba1);
+}
+.container section:nth-child(6) .image {
+  background-image: url(https://download.unsplash.com/photo-1423766111988-c47a5ff6ed06);
+}
+.container section .image {
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 500;
+  opacity: 0.4;
+}
+.container section .stuff {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-flex-wrap: nowrap;
+      -ms-flex-wrap: nowrap;
+          flex-wrap: nowrap;
+  height: 100%;
+  width: 100%;
+  max-width: 70%;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  z-index: 1000;
+  color: #ffffff;
+  margin: 0 auto;
+  font-size: 26px;
+  position: relative;
+}
+.container section .stuff h2 {
+  margin: 0px;
+}
+.container section .stuff:before, .container section .stuff:after {
+  width: 100%;
+  height: 1px;
+  display: block;
+  content: "";
+  margin: 30px 0;
+}
+
+.at-twitter {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  color: #f1c40f;
+  z-index: 5000;
+}
+.at-twitter:visited {
+  color: #f1c40f;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+a:hover, a:focus {
+  color: inherit;
+  text-decoration: underline;
+}
+}
+
