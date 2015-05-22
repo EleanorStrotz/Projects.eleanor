@@ -55,4 +55,19 @@ function stickIt() {
 
 
  // nav bar code
- 
+ $(document).ready(function(){
+  $(window).scroll(function(){
+    var scrollTop = $(window).scrollTop();
+    if (scrollTop > 49) {
+        $('body').addClass('header-fixed');
+    } else {
+        $('body').removeClass('header-fixed');
+    }
+    // change the style of the navbar when the user scrolls into the next zone.
+    if (scrollTop > 2050) {
+        $('header').addClass('alt-header');
+    } else {
+        $('header').removeClass('alt-header');
+    }
+  });
+});
