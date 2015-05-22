@@ -85,19 +85,23 @@ li {
 }
 
 nav {
+ 
   overflow: hidden;
 }
 
 nav ul {
+  /*position: fixed;*/
   float: right;
 }
 
 nav li {
+  /*position: fixed;*/
   display: inline;
   float: left;
 }
 
 nav a {
+  /*position: fixed;*/
   display: inline-block;
   color: #fff;
   text-decoration: none;
@@ -106,10 +110,12 @@ nav a {
 }
 
 nav a:hover {
+  /*position: fixed;*/
   background: red;
 }
 
 .logo {
+  position: fixed;
   float: left;
   color: #fff;
   font-size: 50px;
@@ -118,20 +124,25 @@ nav a:hover {
 }
 
 .alt-header .logo {
+  /*position: fixed;*/
   color: #000;
 }
 
 body.header-fixed .logo {
+  /*position: fixed;*/
   font-size: 30px;
 }
 
 .alternate {
+  /*position: fixed;*/
   background: #000;
   color: #fff;
 }
 
 section .inner {
-  padding-top: 200px;
+  padding-top: 20px;
+  width: 1220px;
+
 }
 
 
