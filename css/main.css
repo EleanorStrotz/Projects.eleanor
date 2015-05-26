@@ -16,135 +16,17 @@ body {
   margin-right: auto;
 }
 /*styling for the navigation bar*/
-/*sticky header code*/
-/* apply a natural box layout model to all elements */
-*, *:before, *:after {
-  -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+.navbar {
+  font-size:initial;
 }
-
-::selection {
-  background: #000;
-  color: #aaf;
-}
-.alternate ::selection {
-  background: #c00;
-  color: #000;
-}
-
-body {
-  margin: 0;
-  padding: 0;
-  height: 2000px;
-  font-size: 16px;
-  line-height: 1.5;
-}
-
-ul, li, h1, h2, h3, h4, h5, h6, p, a, .logo {
-  font-family: "Lato","Verdana",sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  font-weight: 400;
-  margin: 0;
-  padding: 0;
-}
-
-.inner {
-  width: 800px;
-  position: relative;
-  margin: 0 auto;
-}
-
-header {
-  position: fixed;
-  width: 100%;
-  padding-top: 50px;
-  background: #000;
-  transition: 0.7s all;
-  z-index: 100;
-}
-
-header.alt-header {
-  background: #fff;
-}
-
-.alt-header a {
-  color: #000;
-}
-
-body.header-fixed header {
-  position: fixed;
-  top: 0;
-  right: 0;
-  padding-top: 0;
-  width: 100%;
-  z-index: 2;
-}
-
-li {
-  list-style: none;
-}
-
-nav {
- 
-  overflow: hidden;
-}
-
-nav ul {
-  /*position: fixed;*/
-  float: right;
-}
-
-nav li {
-  /*position: fixed;*/
-  display: inline;
-  float: left;
-}
-
-nav a {
-  /*position: fixed;*/
-  display: inline-block;
-  color: #fff;
-  text-decoration: none;
-  padding: 25px;
-  transition: 0.3s all;
-}
-
-nav a:hover {
-  /*position: fixed;*/
-  background: red;
-}
-
-.logo {
-  position: fixed;
-  float: left;
-  color: #fff;
-  font-size: 50px;
-  line-height: 50px;
-  transition: 0.7s all;
-}
-
-.alt-header .logo {
-  /*position: fixed;*/
-  color: #000;
-}
-
-body.header-fixed .logo {
-  /*position: fixed;*/
-  font-size: 30px;
-}
-
-.alternate {
-  /*position: fixed;*/
-  background: #000;
-  color: #fff;
-}
-
-section .inner {
-  padding-top: 20px;
-  width: 1220px;
-
-}
-
+* {font-family:arial; margin:0; padding:0;}
+.logo {font-size:40px; font-weight:bold;color:#00a; font-style:italic;}
+.intro {color:#777; font-style:italic; margin:10px 0;}
+.menu {background:#00a; color:#fff; height:40px; line-height:40px;letter-spacing:1px; width:100%;}
+.content {margin-top:10px;}
+.menu-padding {padding-top:40px;}
+.content {padding:10px;}
+.content p {margin-bottom:20px;}
 
 
 
