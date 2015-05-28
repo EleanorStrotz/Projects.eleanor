@@ -41,5 +41,7 @@ function parallaxIt() {
 
 parallaxIt();
 
-//nav bar code js
-// Create a clone of the menu, right next to original.
+//email bar
+
+
+// Blue colors, and that gnarly radial graident came from http://codepen.io/chrisota/pen/qLJtK
