@@ -53,6 +53,29 @@ body {
 .button { width: 100%; margin: .5em 0 0 0; }
   
 }
+/*added home button*/
+.btn{
+   font-family: arial;
+   font-size:14px;
+   text-transform: uppercase;
+   font-weight:700;
+   border:none;
+   padding:10px;
+   cursor: pointer;
+   margin-left: 1050px;
+   margin-top: 490px;
+}
+ .btn-green{
+   background:green;
+   color:#fff;
+   box-shadow:0 5px #006000;
+} 
+  .btn-green{
+   background:green;
+   color:#fff;
+   box-shadow:0 5px 0 #003f00;
+  }   
+   
 
 
 /*media query/ mobile responsive line of code for iphone 5*/
